@@ -1,0 +1,7 @@
+loaves = int(input('How many loaves do you want to make? ')) 
+water = 1.5 * loaves
+yeast = 1 * loaves
+flour = 4.5 * loaves
+oil = 2 * loaves
+
+print(f'You need {water:.1f} cups of warm water, {yeast:.1f} tablespoons of yeast, {flour:.1f} cups of all-purpose flour, and {oil:.1f} tablespoons of oil.')
