@@ -1,0 +1,11 @@
+numberOfPenguins = int(input('Enter the number of penguins: '))
+numberOfSeals = int(input('Enter the number of seals: '))
+numberOfPolarBears = int(input('Enter the number of polar bears: '))
+
+penguinFood = daily_penguin_ration * numberOfPenguins * 30
+sealFood = daily_seal_ration * numberOfSeals * 30
+polarBearFood = daily_polar_bear_ration * numberOfPolarBears * 30
+
+print(f'The food consumed by penguins is {penguinFood:.0f} kg')
+print(f'The food consumed by seals is {sealFood:.0f} kg')
+print(f'The food consumed by polar bears is {polarBearFood:.0f} kg')
